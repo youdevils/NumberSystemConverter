@@ -8,9 +8,9 @@ std::string Decimal_To_Binary(int decimal_value, int word_length);
 
 int main(int argc, char const *argv[])
 {
-    std::string binary_val = "010";
-    int dec_value = 0;
-    std::cout << "Decimal Value: " << Binary_To_Decimal(binary_val) << std::endl;
+    // std::string binary_val = "110011";
+    int dec_value = 35;
+    // std::cout << "Decimal Value: " << Binary_To_Decimal(binary_val) << std::endl;
     std::cout << "Binary Value: " << Decimal_To_Binary(dec_value, 8) << std::endl;
     return 0;
 }
